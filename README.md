@@ -233,4 +233,4 @@ If you find our work useful in your research, please consider citing our paper a
 
 ## Acknowledge
 
-This project is based on [CLAM](https://github.com/mahmoodlab/CLAM), [CoOp](https://github.com/KaiyangZhou/CoOp), and [Self-Supervised-ViT-path](https://github.com/Richarizardd/Self-Supervised-ViT-Path). We have great thanks to these awsome projects.
+This project is based on [CLAM](https://github.com/mahmoodlab/CLAM), [CoOp](https://github.com/KaiyangZhou/CoOp), and [Self-Supervised-ViT-path](https://github.com/Richarizardd/Self-Supervised-ViT-Path). We have great thanks for these awesome projects.
