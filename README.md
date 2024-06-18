@@ -166,7 +166,6 @@ python main.py \
 --split_dir 'SPLIT_DIR' \
 --text_prompt_path 'TEXT_PROMPT_PATH' \
 --prototype_number 16 \ 
-
 ```
 
 Parameter Descriptions:
