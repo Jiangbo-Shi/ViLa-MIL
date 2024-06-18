@@ -14,7 +14,7 @@
 
 ## Updates
 
-* [X] The project has been realeased.
+* [X] The project has been released.
 
 ## 1. Pre-requisites
 
@@ -136,13 +136,13 @@ Parameter Descriptions:
 
 By querying the frozen LLM (*e.g.,* GPT-3.5) with the following question, the text prompt will be generated automatically.
 
-`Q: What are the visually descriptive characterstics of {class name} at low and high resolution in the whole slide image?`
+`Q: What are the visually descriptive characteristics of {class name} at low and high resolution in the whole slide image?`
 
 The specific text prompt files for TCGA-RCC and TCGA-Lung datasets are stored in the folder `text_prompt` using GPT-3.5.
 
 ## 7. Training Model
 
-Run the following script, ViLa-MIL will be trained.
+Run the following script, and ViLa-MIL will be trained.
 
 ```
 export CUDA_VISIBLE_DEVICES=0
@@ -210,12 +210,12 @@ Parameter Descriptions:
 * `task`: '`task_tcga_rcc_subtyping`' for TCGA_RCC dataset.
 * `results_dir`: The path where model training results are saved.
 * `models_exp_code`: The training model saving path.
-* `save_exp_code`: The path of saving the evalulation results.
+* `save_exp_code`: The path of saving the evaluation results.
 * `split_dir`: The same path as `save_folder` in `step 5.2`.
 * `data_root_dir`: The path where patch features are saved.
 * `data_folder_s`: The folder name for low-scale patch features.
 * `data_folder_l`: The folder name for high-scale patch features.
-* `text_prompt_path`: The path of text prompt file.
+* `text_prompt_path`: The path of the text prompt file.
 
 ## Citation
 
