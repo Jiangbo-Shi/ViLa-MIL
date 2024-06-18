@@ -4,7 +4,7 @@
 
 *[Jiangbo Shi](https://scholar.google.com.hk/citations?user=FhR6erIAAAAJ&hl=zh-CN), Chen Li, Tieliang Gong, [Yefeng Zheng](https://sites.google.com/site/yefengzheng/), [Huazhu Fu](https://hzfu.github.io/)*
 
-[[Open Access Version]](https://openaccess.thecvf.com/content/CVPR2024/papers/Shi_ViLa-MIL_Dual-scale_Vision-Language_Multiple_Instance_Learning_for_Whole_Slide_Image_CVPR_2024_paper.pdf) | [[Poster](image/readme/poster.png)] | [Video]
+[[Open Access Version]](https://openaccess.thecvf.com/content/CVPR2024/papers/Shi_ViLa-MIL_Dual-scale_Vision-Language_Multiple_Instance_Learning_for_Whole_Slide_Image_CVPR_2024_paper.pdf) | [[Poster](image/readme/poster.png)] | [Video] | [[Cite](https://github.com/Jiangbo-Shi/ViLa-MIL?tab=readme-ov-file#citation)]
 
 ***TL;DR:*** *ViLa-MIL is a dual-scale vision-language multiple instance learning framework for whole slide image classification. A dual-scale visual descriptive text prompt is introduced to boost the performance of VLM effectively. Moreover, two lightweight and trainable decoders are proposed to transfer the VLM to the field of pathology efficiently.*
 
