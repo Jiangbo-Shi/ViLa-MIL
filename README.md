@@ -75,7 +75,7 @@ Paramters Descriptions:
 * `slide_folder`: The downloading original WSI folder path in `step 2`.
 * `all_data`: The same path as the `uuid_name_file` in `step 4.1`.
 * `root_folder`: The same path as the save_dir in `step 4.1`.
-* `define_path_size`: For the TCGA dataset, all the patches are cropped in 20x. If patches are needed to crop at 10x with size 256. this parameter should defined as 1024.
+* `define_path_size`: For the TCGA dataset, all the patches are cropped in 20x. If patches are needed to crop at 10x with size 256. this parameter should defined as 512.
 * `save_folder`: The path where the cropping patches are saved.
 
 4.3 Extract Patch Features
