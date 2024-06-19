@@ -18,8 +18,8 @@ for j in range(5):
     orginal_data_split = np.array(pd.read_csv(orginal_data_split_path))
     slidename2label = {}
     for each_data in all_data:        
-    all_slide_label = []
-    selected_train_slide = []
+        all_slide_label = []
+        selected_train_slide = []
     for each_data in orginal_data_split:
             slide_label = slidename2label[each_data[1]]
             all_slide_label.append(slide_label)
