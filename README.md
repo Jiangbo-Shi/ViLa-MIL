@@ -2,7 +2,7 @@
 
 **Dual-scale Vision-Language Multiple Instance Learning for Whole Slide Image Classification**, *CVPR 2024*.
 
-*[Jiangbo Shi](https://scholar.google.com.hk/citations?user=FhR6erIAAAAJ&hl=zh-CN), Chen Li, Tieliang Gong, [Yefeng Zheng](https://sites.google.com/site/yefengzheng/), [Huazhu Fu](https://hzfu.github.io/)*
+Jiangbo Shi, Chen Li, Tieliang Gong, Yefeng Zheng, Huazhu Fu
 
 [[Open Access Version]](https://openaccess.thecvf.com/content/CVPR2024/papers/Shi_ViLa-MIL_Dual-scale_Vision-Language_Multiple_Instance_Learning_for_Whole_Slide_Image_CVPR_2024_paper.pdf) | [[Cite](https://github.com/Jiangbo-Shi/ViLa-MIL?tab=readme-ov-file#citation)]
 
@@ -12,9 +12,6 @@
 
 ![](image/readme/framework.png)
 
-## Updates
-
-* [X] The project has been released.
 
 ## 1. Pre-requisites
 
@@ -216,7 +213,7 @@ Parameter Descriptions:
 * `data_folder_l`: The folder name for high-scale patch features.
 * `text_prompt_path`: The path of the text prompt file.
 
-Note that the symboles $N_l$ and $N$ in Eqs. (6) and (7) of the main manuscript should be revised into $N_p$. 
+`Note that` the symboles $N_l$ and $N$ in Eqs. (6) and (7) of the main manuscript should be revised into $N_p$. 
 
 ## Citation
 
