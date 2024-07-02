@@ -216,6 +216,8 @@ Parameter Descriptions:
 * `data_folder_l`: The folder name for high-scale patch features.
 * `text_prompt_path`: The path of the text prompt file.
 
+Note that the symboles $N_l$ and $N$ in Eqs. (6) and (7) of the main manuscript should be revised into $N_p$. 
+
 ## Citation
 
 If you find our work useful in your research, please consider citing our paper at:
