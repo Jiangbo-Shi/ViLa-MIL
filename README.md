@@ -4,7 +4,7 @@
 
 Jiangbo Shi, Chen Li, Tieliang Gong, Yefeng Zheng, Huazhu Fu
 
-[[Open Access Version]](https://openaccess.thecvf.com/content/CVPR2024/papers/Shi_ViLa-MIL_Dual-scale_Vision-Language_Multiple_Instance_Learning_for_Whole_Slide_Image_CVPR_2024_paper.pdf) | [[Cite](https://github.com/Jiangbo-Shi/ViLa-MIL?tab=readme-ov-file#citation)]
+[[Conference Version]](https://openaccess.thecvf.com/content/CVPR2024/papers/Shi_ViLa-MIL_Dual-scale_Vision-Language_Multiple_Instance_Learning_for_Whole_Slide_Image_CVPR_2024_paper.pdf) | [[arXiv Version]](https://arxiv.org/abs/2502.08391)
 
 **Abstract**: Multiple instance learning (MIL)-based framework has become the mainstream for processing the whole slide image (WSI) with giga-pixel size and hierarchical image context in digital pathology. However, these methods heavily depend on a substantial number of bag-level labels and solely learn from the original slides, which are easily affected by variations in data distribution. Recently, vision language model (VLM)-based methods introduced the language prior by pre-training on large-scale pathological image-text pairs. However, the previous text prompt lacks the consideration of pathological prior knowledge, therefore does not substantially boost the model's performance. Moreover, the collection of such pairs and the pre-training process are very time-consuming and source-intensive. To solve the above problems, we propose a dual-scale vision-language multiple instance learning (**ViLa-MIL**) framework for whole slide image classification. Specifically, we propose a dual-scale visual descriptive text prompt based on the frozen large language model (LLM) to boost the performance of VLM effectively. To transfer the VLM to process WSI efficiently, for the image branch, we propose a prototype-guided patch decoder to aggregate the patch features progressively by grouping similar patches into the same prototype; for the text branch, we introduce a context-guided text decoder to enhance the text features by incorporating the multi-granular image contexts. Extensive studies on three multi-cancer and multi-center subtyping datasets demonstrate the superiority of ViLa-MIL.
 
@@ -211,7 +211,8 @@ Parameter Descriptions:
 * `data_folder_l`: The folder name for high-scale patch features.
 * `text_prompt_path`: The path of the text prompt file.
 
-`Note that` the symboles $N_l$ and $N$ in Eqs. (6) and (7) of the main manuscript should be revised into $N_p$. 
+## Updates
+02/13/2025: The typos and layout errors present in the conference version have been updated in the arXiv version of the paper.
 
 ## Citation
 
@@ -230,3 +231,6 @@ If you find our work useful in your research, please consider citing our paper a
 ## Acknowledge
 
 This project is based on [CLAM](https://github.com/mahmoodlab/CLAM), [CoOp](https://github.com/KaiyangZhou/CoOp), and [Self-Supervised-ViT-path](https://github.com/Richarizardd/Self-Supervised-ViT-Path). We have great thanks for these awesome projects.
+
+## Contact
+shijiangbo@stu.xjtu.edu.cn
