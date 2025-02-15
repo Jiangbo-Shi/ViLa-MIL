@@ -69,7 +69,7 @@ class PromptLearner(nn.Module):
             embedding = clip_model.token_embedding(tokenized_prompts).type(dtype)
 
         self.register_buffer("token_prefix", embedding[:, :1, :])  
-        self.register_buffer("token_suffix", embedding[:, 1 + n_ctx :, :]) 
+        self.register_buffer("token_suffix", embedding[:, 1:-n_ctx, :]) 
 
         self.n_cls = n_cls
         self.n_ctx = n_ctx
