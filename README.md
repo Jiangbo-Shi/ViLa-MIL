@@ -211,9 +211,6 @@ Parameter Descriptions:
 * `data_folder_l`: The folder name for high-scale patch features.
 * `text_prompt_path`: The path of the text prompt file.
 
-## Updates
-02/13/2025: The typos and layout errors present in the conference version have been updated in the arXiv version of the paper.
-
 ## Citation
 
 If you find our work useful in your research, please consider citing our paper at:
@@ -233,4 +230,4 @@ If you find our work useful in your research, please consider citing our paper a
 This project is based on [CLAM](https://github.com/mahmoodlab/CLAM), [CoOp](https://github.com/KaiyangZhou/CoOp), and [Self-Supervised-ViT-path](https://github.com/Richarizardd/Self-Supervised-ViT-Path). We have great thanks for these awesome projects.
 
 ## Contact
-shijiangbo@stu.xjtu.edu.cn
+E-mail：shijiangbo@xjtu.edu.cn
